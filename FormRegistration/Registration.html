@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <form action="#" method="get">
+            <fieldset style="background-color:violet;">
+                <h1 align="center">STUDENT REGISTRATION FORM</h1>
+                <hr>
+                <h2>PERSONAL INFORMATION</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <td>NAME</td><br/>
+                        <td><input type="text" name="Name"></td>
+                    </tr>
+                    <tr>
+                        <td>DATE OF BIRTH</td>
+                        <td><input type="Date" name="Date Of Birth"></td>
+                    </tr>
+                    <tr>
+                        <td>GENDER</td>
+                        <td><input type="radio" name="Gender" value="Male">Male
+                            <input type="radio" name="Gender" value="Female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IMAGE</td>
+                        <td><input type="file" name="Image"></td>
+                    </tr>
+                </table>
+                <hr>
+                <h2>CONTACT INFORMATION</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <td>ADDRESS</td>
+                        <td><textarea name="Address" cols="50" rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>CITY</td>
+                        <td>
+                            <select name="City">
+                                <option>*****SELECT CITY*****</option>
+                                <option>Jakarta</option>
+                                <option>Bogor</option>
+                                <option>Depok</option>
+                                <option>Tangerang</option>
+                                <option>Bekasi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PHONE</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>EMAIL</td>
+                        <td><input type="text" name="E-mail"></td>
+                    </tr>
+                </table>
+                <hr>
+                <h2>MAJOR INFORMATION</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <td>MAJOR</td>
+                        <td><input type="radio" name="Major" value="Information System">INFORMATION SYSTEM<br/>
+                            <input type="radio" name="Major" value="Informatics Engineering">INFORMATICS ENGINEERING</td>
+                    </tr>
+                    <tr>
+                        <td>GENERATION</td>
+                        <td>
+                            <select name="Generation">
+                                <option>*****SELECT YEAR*****</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <br/>
+                <button><a href="Submit.html">Submit</a></button>
+            </fieldset>
+        </form>
+    </body>
+</html>
